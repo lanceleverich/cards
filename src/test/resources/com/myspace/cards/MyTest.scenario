@@ -27,7 +27,7 @@
     <imports/>
   </imports>
   <ksessions>
-    <string>defaultKieSession</string>
+    <string>ses</string>
   </ksessions>
   <modelName>MyCard</modelName>
 </scenario>
