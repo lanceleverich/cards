@@ -1,13 +1,33 @@
 <scenario>
-  <name>MyTest</name>
+  <name>MyTest.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>Person</type>
+      <fieldData>
+        <field-data>
+          <name>name</name>
+          <value>abc</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>p</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+    <verify-scorecard-score>
+      <expected>105.0</expected>
+    </verify-scorecard-score>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.myspace.cards</packageName>
   <imports>
     <imports/>
   </imports>
-  <ksessions/>
+  <ksessions>
+    <string>ses</string>
+  </ksessions>
+  <modelName>myCard</modelName>
 </scenario>
